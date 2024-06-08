@@ -1,0 +1,6 @@
+#!/bin/sh
+BUILD_DIR=$1
+echo "Compiling Ngrok buildpack..."
+cp -r * $BUILD_DIR
+chmod +x $BUILD_DIR/start_ngrok.sh
+
